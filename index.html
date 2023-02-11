@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    </head>
+<body>
+    <form class="calc">
+        <div class="form-group">
+            <input type="text" class="from-control calc__result-field">
+        </div>
+        <div class="calc__body">
+            <div class="calc_nums">
+                <button class="btn btn-secondary btn-reset js--btn-reset">Clear</button>
+            <button class="btn bg-white btn-reset js--btn-add-reset">7</button>
+            <button class="btn bg-white btn-reset js--btn-add-reset">8</button>
+            <button class="btn bg-white btn-reset js--btn-add-reset">9</button>
+            <button class="btn bg-white btn-reset js--btn-add-reset">4</button>
+            <button class="btn bg-white btn-reset js--btn-add-reset">5</button>
+            <button class="btn bg-white btn-reset js--btn-add-reset">6</button>
+            <button class="btn bg-white btn-reset js--btn-add-reset">1</button>
+            <button class="btn bg-white btn-reset js--btn-add-reset">2</button>
+            <button class="btn bg-white btn-reset js--btn-add-reset">3</button>
+            <button class="btn bg-white btn-zero  js--btn-add-reset">0</button>
+            <button class="btn bg-white btn-reset js--btn-add-reset">.</button>
+            </div>
+            <div class="calc__operators">
+                <button class="btn  btn-warning js--btn-add-reset">+</button>
+                <button class="btn  btn-warning js--btn-add-reset">-</button>
+                <button class="btn  btn-warning js--btn-add-reset">/</button>
+                <button class="btn  btn-warning js--btn-add-reset">*</button>
+                <button class="btn  btn-white js--btn-calc">=</button>
+            </div>
+            
+        </div>
+        
+    </form>
+   <script src="./script.js"></script>
+</body>
+</html>
